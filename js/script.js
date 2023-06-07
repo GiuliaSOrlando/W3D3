@@ -27,7 +27,6 @@ addForm.addEventListener('submit', function(e){
     allRemoveButtons.forEach((button) => {
         button.addEventListener('click', function(e){
             let clickedBtn = e.target
-            let removeTodo = clickedBtn.parentElement
             clickedBtn.parentElement.remove()
         })
     })

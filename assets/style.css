@@ -10,6 +10,7 @@ body {
 
 header {
     background-color: #111820;
+    text-align: center;
 }
 
 header img {
@@ -33,11 +34,10 @@ header img {
 
 .new-list-el {
     display: inline-block;
-    background-color: #ACBCC0;
     width: 90%;
     padding: 10px;
     margin-top: 0px;
-    border-top: 0.5px solid #888;
+    border-top: 0.5px solid #E5E5E5;
 }
 
 .new-list-el p {
@@ -45,14 +45,14 @@ header img {
 }
 
 .remove-todo {
-    background-color: pink;
+    border: none;
 }
 
-ol li {
+#task-list li {
     list-style-type: none;
 }
 
-ol li.checked {
+#task-list li.checked {
     background: #888;
     color: #fff;
     text-decoration: line-through;
